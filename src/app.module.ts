@@ -1,7 +1,7 @@
 import { Module } from "@nestjs/common";
 import { JwtModule } from "@nestjs/jwt";
 import { TypeOrmModule } from "@nestjs/typeorm";
-import interceptor from "./interceptor";
+import interceptor from "interceptor";
 import controllers from "./controllers";
 import entities from "./entities";
 import * as ormConfig from "./ormconfig";
